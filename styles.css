@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fbe3e3;
+    color: #16161d;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 2rem;
+}
+
+.eight-ball {
+    background-color: #000000f9;
+    height: 62.5vh;
+    width: 30%;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.eight-digit {
+    color: #fff;
+    font-size: 12rem;
+    text-shadow: #fff 1px 2px 8px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.led-answer {
+    margin: 1.5rem 0;
+    height: 25%;
+    width: 100%;
+    background-color: #0400ff97;
+    border-radius: 0.4rem;
+    display: none;
+}
+
+input {
+    width: 32%;
+    font-size: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    outline: none;
+    border: 1px solid #16161d;
+}
