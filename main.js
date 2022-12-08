@@ -7,7 +7,7 @@ const eightBall = document.getElementById('eight-ball');
 const ledAnswer = document.getElementById('led-answer');
 const answer = document.getElementById('answer-text');
 
-async function showHint() {
+function showHint() {
     userInput.addEventListener('keyup', () => {
         hint.style.display = 'block';
     });
