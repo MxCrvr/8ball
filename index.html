@@ -10,15 +10,23 @@
 </head>
 <body>
     <main>
-        <h1>Ask a question...</h1>
-        <input type="text" name="user-question" id="user-question"">
+        <h1 id="h1">Ask a question...</h1>
+        <div class="question">
+            <input type="text" name="user-question" id="user-input"">
+            <p class="hint" id="hint">Click the 8 Ball to get your answer</p>
+        </div>
         
         <div class="eight-ball" id="eight-ball">
-            <h2 class="eight-digit">8</h2>
+            <h2 class="eight-digit" id="eight-digit">8</h2>
 
-            <div class="led-answer"></div>
+            <div class="led-answer" id="led-answer">
+                <p class="answer-text" id="answer-text"></p>
+            </div>
         </div>
     </main>
     
+    <footer>
+        <p>2022 Copyright &#169; | MxCrvr</p>
+    </footer>
 </body>
 </html>
