@@ -68,7 +68,7 @@ eightBall.addEventListener('click', () => {
         eightBall.style.justifyContent = 'flex-start';
         answer.innerText = randomAnswer();
         const h1 = document.getElementById('h1');
-        h1.innerText = "Ask another question...";
+        h1.innerText = "Ask another yes or no question...";
     };
 });
 
